@@ -19,6 +19,14 @@ public class App {
             {
                 break;
             }
+
+            else if (command.equals("등록"))
+            {
+                System.out.printf("명언 :");
+                String content = sc.nextLine().trim();
+                System.out.printf("작가 :");
+                String authorName=sc.nextLine().trim();
+            }
         }
 
     }
